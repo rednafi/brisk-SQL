@@ -16,7 +16,7 @@ sudo apt-get install mysql-server
 
 If you want to connect to the MySQL database from another machine, you must open a port in your server’s firewall (the default port is 3306). This is not necessary if you intend to run the application that uses MySQL on the same server.
 
-Run the following command to allow remote access to the mysql server:
+Run the following command to allow remote access to the MySQL server:
 
 ```
 sudo ufw allow mysql
@@ -39,12 +39,12 @@ systemctl enable mysql
 
 ### Start the MySQL Shell
 
-In the beginning, to start the mySQL shell, run:
+In the beginning, to start the MySQL shell, run:
 
 ```
 sudo mysql -u root -p
 ```
-Writing this command will bring up a password prompt. Put your system password and press return. The following mysql shell prompt should appear:
+Writing this command will bring up a password prompt. Put your system password and press return. The following MySQL shell prompt should appear:
 
 ```
 mysql>
@@ -53,7 +53,7 @@ Press ```ctrl + D ``` to stop the server.
 
 ### Set the Root Password
 
-Enter the following command in the mysql shell, replacing password with your new password:
+Enter the following command in the MySQL shell, replacing password with your new password:
 
 ```
 UPDATE mysql.user SET authentication_string = PASSWORD('password') 
@@ -75,7 +75,7 @@ FLUSH PRIVILEGES;
 
 ### View Users
 
-MySQL stores the user information in its own database. The name of the database is mysql. If you want to see what users are set up in the MySQL user table, run the following command:
+MySQL stores the user information in its own database. The name of the database is ```mysql```. If you want to see what users are set up in the MySQL user table, run the following command:
 
 ```
 SELECT User, Host, authentication_string FROM mysql.user;
@@ -142,7 +142,7 @@ FLUSH PRIVILEGES;
 
 ### Add a Database User
 
-To create a new user (here, we created a new user named ```redowan``` with the password ```password```), run the following command in the mysql shell:
+To create a new user (here, we created a new user named ```redowan``` with the password ```password```), run the following command in the MySQL shell:
 
 ```
 CREATE USER 'redowan'@'localhost' IDENTIFIED BY 'password';
@@ -174,8 +174,8 @@ You should see something like below. Notice that a new user named ```redowan``` 
 To delete a database user (here, I'm deleting the user-```redowan```) run:
 ```
 DELETE FROM mysql.user
-WHERE user='<your-user>'
-AND host = 'localhost';
+WHERE user='<redowan>'
+AND host = 'localhost'
 
 FlUSH PRIVILEGES;
 ```
