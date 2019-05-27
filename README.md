@@ -191,7 +191,7 @@ GRANT ALL PRIVILEGES ON test_db.table TO 'redowan'@'localhost';
 If you want to give permission to all the databases, type:
 
 ```
-GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'redowan'@'localhost';
 ```
 
 ```
