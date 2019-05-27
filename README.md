@@ -1,8 +1,26 @@
 # brisk-SQL
+----------------------------------------------------------------------------------------------------------------------
 
+## Table of Contents
+----------------------------------------------------------------------------------------------------------------------
+- [Setting Up](#)
+  - [Installation](#sub-heading)
+  - [Allow Remote Access](#sub-heading-1)
+  - [Start MySQL Service](#sub-heading-2)
+  - [Launch at Reboot](#sub-heading-3)
+  - [Start the MySQL Shell](#sub-heading-4)
+  - [Set the Root Password](#sub-heading-5)
+  - [View Users](#sub-heading-6)
+  - [Create a Database](#sub-heading-7)
+  - [Delete a Database](#sub-heading-8)
+  - [Add a Database User](#sub-heading-9)
+  - [Delete a Database User](#sub-heading-10)
+  - [Grant Database User Permissions](#sub-heading-11)
 
 ## Setting Up
+----------------------------------------------------------------------------------------------------------------------
 
+ 
 ### Installation
 
 This part describes a basic installation of a MySQL 5.7 database server on Ubuntu Linux, 18.04 to be specific. 
@@ -23,7 +41,7 @@ sudo ufw allow mysql
 ```
 
 
-### Start MySQL server
+### Start MySQL service
 
 After the installation, the database service can be started via the following command:
 
