@@ -233,8 +233,20 @@ SHOW DATABASES;
 
 You should see something like this:
 ```
-```
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| classicmodels      |
+| mysql              |
+| performance_schema |
+| sys                |
+| test_db            |
++--------------------+
+6 rows in set (0.00 sec)
 
+```
+Notice that a new database named ```classicmodels``` has been added to the list.
 
 ## Connecting to a Third Party Client
 
