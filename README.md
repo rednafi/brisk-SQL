@@ -1,24 +1,24 @@
 # brisk-SQL
-----------------------------------------------------------------------------------------------------------------------
+
 
 ## Table of Contents
-----------------------------------------------------------------------------------------------------------------------
-- [Setting Up](#)
-  - [Installation](#sub-heading)
-  - [Allow Remote Access](#sub-heading-1)
-  - [Start MySQL Service](#sub-heading-2)
-  - [Launch at Reboot](#sub-heading-3)
-  - [Start the MySQL Shell](#sub-heading-4)
-  - [Set the Root Password](#sub-heading-5)
-  - [View Users](#sub-heading-6)
-  - [Create a Database](#sub-heading-7)
-  - [Delete a Database](#sub-heading-8)
-  - [Add a Database User](#sub-heading-9)
-  - [Delete a Database User](#sub-heading-10)
-  - [Grant Database User Permissions](#sub-heading-11)
+
+- [Setting Up](https://github.com/rednafi/brisk-SQL/blob/master/README.md#setting-up)
+  - [Installation](https://github.com/rednafi/brisk-SQL/blob/master/README.md#installation)
+  - [Allow Remote Access](https://github.com/rednafi/brisk-SQL/blob/master/README.md#allow-remote-access)
+  - [Start MySQL Service](https://github.com/rednafi/brisk-SQL/blob/master/README.md#start-mysql-service)
+  - [Launch at Reboot](https://github.com/rednafi/brisk-SQL/blob/master/README.md#launch-at-reboot)
+  - [Start the MySQL Shell](https://github.com/rednafi/brisk-SQL/blob/master/README.md#start-the-mysql-shell)
+  - [Set the Root Password](https://github.com/rednafi/brisk-SQL/blob/master/README.md#set-the-root-password)
+  - [View Users](https://github.com/rednafi/brisk-SQL/blob/master/README.md#view-users)
+  - [Create a Database](https://github.com/rednafi/brisk-SQL/blob/master/README.md#create-a-database)
+  - [Delete a Database](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database)
+  - [Add a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#add-a-database-user)
+  - [Delete a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database-user)
+  - [Grant Database User Permissions](https://github.com/rednafi/brisk-SQL/blob/master/README.md#grant-database-user-permission)
 
 ## Setting Up
-----------------------------------------------------------------------------------------------------------------------
+
 
  
 ### Installation
