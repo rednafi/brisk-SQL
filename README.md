@@ -16,6 +16,7 @@
   - [Add a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#add-a-database-user)
   - [Delete a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database-user)
   - [Grant Database User Permissions](https://github.com/rednafi/brisk-SQL/blob/master/README.md#grant-database-user-permission)
+  - [Loading Sample Database to Your Own Mysql Server](https://github.com/rednafi/brisk-SQL/blob/master/README.md#loading-sample-database-to-your-own-mysql-server)
 
 ## Setting Up
 
@@ -215,3 +216,26 @@ GRANT ALL PRIVILEGES ON *.* TO 'redowan'@'localhost';
 ```
 FlUSH PRIVILEGES;
 ```
+
+### Loading Sample Database to Your Own Mysql Server
+
+To load ```mysqlsampledatabase.sql``` to your own server (In this case the user is ```redowan```. Provide database ```password``` in the prompt), first fireup the server and type the following commands:
+
+```
+mysql -u redowan -p test_db < mysqlsampledatabase.sql;
+```
+
+Now run:
+
+```
+SHOW DATABASES;
+```
+
+You should see something like this:
+```
+```
+
+
+## Connecting to a Third Party Client
+
+We will be using [dBeaver](https://github.com/dbeaver/dbeaver) as a third party client. While you can use the ```mysql``` shell to work on your data, a third partly client that make the experience much better with auto formatting, earsier import features, syntax highlighting etc. 
