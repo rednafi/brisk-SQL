@@ -17,6 +17,7 @@
   - [Delete a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database-user)
   - [Grant Database User Permissions](https://github.com/rednafi/brisk-SQL/blob/master/README.md#grant-database-user-permission)
   - [Loading Sample Database to Your Own Mysql Server](https://github.com/rednafi/brisk-SQL/blob/master/README.md#loading-sample-database-to-your-own-mysql-server)
+- [
 
 ## Setting Up
 
@@ -250,4 +251,11 @@ Notice that a new database named ```classicmodels``` has been added to the list.
 
 ## Connecting to a Third Party Client
 
-We will be using [dBeaver](https://github.com/dbeaver/dbeaver) as a third party client. While you can use the ```mysql``` shell to work on your data, a third partly client that make the experience much better with auto formatting, earsier import features, syntax highlighting etc. 
+We will be using [DBeaver](https://github.com/dbeaver/dbeaver) as a third party client. While you can use the ```mysql``` shell to work on your data, a third partly client that make the experience much better with auto formatting, earsier import features, syntax highlighting etc. 
+
+### Installing DBeaver
+
+You can install DBeaver installer from [here](https://dbeaver.io/download/). Installation is pretty straight forward.
+
+### Connecting MySQL Database to DBeaver
+
