@@ -263,11 +263,11 @@ You can install DBeaver installer from [here](https://dbeaver.io/download/). Ins
 
 Fire up DBeaver and you should be presented with this screen. Select ```MySQL 8+``` and go ```next```.
 
-![alt text](https://github.com/brisk-SQL/figs/fig1.png)
+![alt text](https://github.com/rednafi/brisk-SQL/blob/master/figs/fig1.png)
 
-The dialogue box will ask for credentials to connect to a database. In this case, I will log into previously created local database ```test_db``` with the username ```redowan``` and corresponding password ```password``` and press ```test connection``` tab. A dialogue box might pop up, prompting you download necessary drivers. 
+The dialogue box will ask for credentials to connect to a database. In this case, I will log into previously created local database ```test_db``` with the username ```redowan```, corresponding password ```password``` and press ```test connection``` tab. A dialogue box might pop up, prompting you download necessary drivers. 
 
-![alt text](https://github.com/brisk-SQL/figs/fig2.png)
+![alt text](https://github.com/rednafi/brisk-SQL/blob/master/figs/fig1.png)
 
 If everything is okay, you should see a success message. You can select the ```SQL Editor``` and start writing your MySQL scripts right away. 
 
