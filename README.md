@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [Setting Up](https://github.com/rednafi/brisk-SQL/blob/master/README.md#setting-up)
+- [**Setting Up**](https://github.com/rednafi/brisk-SQL/blob/master/README.md#setting-up)
   - [Installation](https://github.com/rednafi/brisk-SQL/blob/master/README.md#installation)
   - [Allow Remote Access](https://github.com/rednafi/brisk-SQL/blob/master/README.md#allow-remote-access)
   - [Start MySQL Service](https://github.com/rednafi/brisk-SQL/blob/master/README.md#start-mysql-service)
@@ -17,8 +17,8 @@
   - [Delete a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database-user)
   - [Grant Database User Permissions](https://github.com/rednafi/brisk-SQL/blob/master/README.md#grant-database-user-permission)
   - [Loading Sample Database to Your Own Mysql Server](https://github.com/rednafi/brisk-SQL/blob/master/README.md#loading-sample-database-to-your-own-mysql-server)
-  
-- [Connecting to a Third Party Client](https://github.com/rednafi/brisk-SQL/blob/master/README.md#connecting-to-a-third-party-client)
+
+- [**Connecting to a Third Party Client**](https://github.com/rednafi/brisk-SQL/blob/master/README.md#connecting-to-a-third-party-client)
   - [Installing DBeaver](https://github.com/rednafi/brisk-SQL/blob/master/README.md#installing-dbeaver)
   - [Connecting MySQL Database to DBeaver](https://github.com/rednafi/brisk-SQL/blob/master/README.md#connecting-mysql-database-to-dbeaver)
 
