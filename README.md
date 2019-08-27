@@ -17,6 +17,7 @@
     -   [Delete a Database User](https://github.com/rednafi/brisk-SQL/blob/master/README.md#delete-a-database-user)
     -   [Grant Database User Permissions](https://github.com/rednafi/brisk-SQL/blob/master/README.md#grant-database-user-permission)
     -   [Loading Sample Database to Your Own Mysql Server](https://github.com/rednafi/brisk-SQL/blob/master/README.md#loading-sample-database-to-your-own-mysql-server)
+    -   [Creating Dummy Table in the Database](https://github.com/rednafi/brisk-SQL/blob/master/README.md#creating-dummy-table-in-the-database)
 
 -   [**Connecting to a Third Party Client**](https://github.com/rednafi/brisk-SQL/blob/master/README.md#connecting-to-a-third-party-client)
     -   [Installing DBeaver](https://github.com/rednafi/brisk-SQL/blob/master/README.md#installing-dbeaver)
@@ -177,6 +178,61 @@ If you want to give permission to all the databases, type:
     GRANT ALL PRIVILEGES ON *.* TO 'redowan'@'localhost';
 
     FlUSH PRIVILEGES;
+    
+### Creating Dummy Table in the Database
+```
+-- create dummy table
+CREATE TABLE IF NOT EXISTS `student` (
+  `id` int(2) NOT NULL DEFAULT '0',
+  `name` varchar(50) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `class` varchar(10) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `mark` int(3) NOT NULL DEFAULT '0',
+  `sex` varchar(6) CHARACTER SET utf8 NOT NULL DEFAULT 'male'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- insert data into the dummy table
+INSERT INTO `student` (`id`, `name`, `class`, `mark`, `sex`) VALUES
+(1, 'John Deo', 'Four', 75, 'female'),
+(2, 'Max Ruin', 'Three', 85, 'male'),
+(3, 'Arnold', 'Three', 55, 'male'),
+(4, 'Krish Star', 'Four', 60, 'female'),
+(5, 'John Mike', 'Four', 60, 'female'),
+(6, 'Alex John', 'Four', 55, 'male'),
+(7, 'My John Rob', 'Fifth', 78, 'male'),
+(8, 'Asruid', 'Five', 85, 'male'),
+(9, 'Tes Qry', 'Six', 78, 'male'),
+(10, 'Big John', 'Four', 55, 'female'),
+(11, 'Ronald', 'Six', 89, 'female'),
+(12, 'Recky', 'Six', 94, 'female'),
+(13, 'Kty', 'Seven', 88, 'female'),
+(14, 'Bigy', 'Seven', 88, 'female'),
+(15, 'Tade Row', 'Four', 88, 'male'),
+(16, 'Gimmy', 'Four', 88, 'male'),
+(17, 'Tumyu', 'Six', 54, 'male'),
+(18, 'Honny', 'Five', 75, 'male'),
+(19, 'Tinny', 'Nine', 18, 'male'),
+(20, 'Jackly', 'Nine', 65, 'female'),
+(21, 'Babby John', 'Four', 69, 'female'),
+(22, 'Reggid', 'Seven', 55, 'female'),
+(23, 'Herod', 'Eight', 79, 'male'),
+(24, 'Tiddy Now', 'Seven', 78, 'male'),
+(25, 'Giff Tow', 'Seven', 88, 'male'),
+(26, 'Crelea', 'Seven', 79, 'male'),
+(27, 'Big Nose', 'Three', 81, 'female'),
+(28, 'Rojj Base', 'Seven', 86, 'female'),
+(29, 'Tess Played', 'Seven', 55, 'male'),
+(30, 'Reppy Red', 'Six', 79, 'female'),
+(31, 'Marry Toeey', 'Four', 88, 'male'),
+(32, 'Binn Rott', 'Seven', 90, 'female'),
+(33, 'Kenn Rein', 'Six', 96, 'female'),
+(34, 'Gain Toe', 'Seven', 69, 'male'),
+(35, 'Rows Noump', 'Six', 88, 'female');
+```
+### Show Tables
+```
+USE test_db;
+SHOW tables;
+```
 
 ### Loading Sample Database to Your Own Mysql Server
 
@@ -203,6 +259,7 @@ You should see something like this:
     6 rows in set (0.00 sec)
 
 Notice that a new database named `classicmodels` has been added to the list.
+
 
 ## Connecting to a Third Party Client
 
